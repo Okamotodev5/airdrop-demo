@@ -84,7 +84,7 @@ function App({ appId, chainId, owner, userAccount, web3Provider }: AppProps) {
             destination: claimer,
             apiToken,
           },
-        }).then((result) => console.log("Claimed " + result));
+        }).then((result) => console.log("Claimed test " + result));
     }).catch((error: any) => {
         console.log("Failed to obtain signature: " + error);
     });
